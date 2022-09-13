@@ -7,7 +7,7 @@
     </p>
     <br>
     <div>
-      <h3>Pengalaman</h3>
+      <h3>Pengalaman Saya</h3>
       <ul class="experience" v-for="exp in experience" :key="exp.id">
         <p class="exp-list" @click="show(exp)">
           {{ exp.id }}. {{ exp.duration }} - {{ exp.position }} di {{ exp.company }}.
